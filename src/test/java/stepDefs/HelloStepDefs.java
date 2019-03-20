@@ -6,12 +6,7 @@ import cucumber.api.java.en.When;
 
 public class HelloStepDefs {
 
-    @Given("my name is John")
-    public void my_name_is_John() {
-        // Write code here that turns the phrase above into concrete actions
-    }
-
-    @Given("I am a new community user")
+    @Given("John is a new community user")
     public void i_am_a_new_community_user() {
         // Write code here that turns the phrase above into concrete actions
     }
