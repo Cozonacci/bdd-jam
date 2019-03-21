@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = "org.testingsol.jam.stepDefs",
         plugin = "io.cucumber.pro.JsonReporter:all",
-        features = "src/test/resources/greeting_the_community.feature")
+        features = "src/test/resources/")
 public class RunCucumberTest {
 }
