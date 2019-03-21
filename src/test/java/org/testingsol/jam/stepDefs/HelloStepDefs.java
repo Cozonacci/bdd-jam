@@ -1,4 +1,4 @@
-package stepDefs;
+package org.testingsol.jam.stepDefs;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -18,6 +18,21 @@ public class HelloStepDefs {
 
     @Then("community replies with {string}")
     public void community_replies_with_greetings(String greetingMessage) {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Given("{string} is an existing community member")
+    public void an_existing_community_member(String memberName) {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @When("{string} shares a new story in {string} section saying {string}")
+    public void member_shares_a_new_story_in_section_with_message(String member, String section, String message) {
+        // Write code here that turns the phrase above into concrete actions
+    }
+
+    @Then("the story is added to {string} section")
+    public void the_story_is_added_to_section(String string) {
         // Write code here that turns the phrase above into concrete actions
     }
 }
