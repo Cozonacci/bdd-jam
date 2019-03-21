@@ -1,4 +1,4 @@
-package stepDefs;
+package org.testingsol.jam.stepDefs;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
